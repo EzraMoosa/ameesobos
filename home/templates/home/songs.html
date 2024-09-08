@@ -1,0 +1,29 @@
+{% extends "home/base.html" %}
+
+
+<!-- Title -->
+{% block title %}
+    SONGS | Amee & The Sobos
+{% endblock title %}
+
+
+<!-- Content -->
+{% block content %}
+
+    <!-- Display all songs from band -->
+    <div class="container mt-5">
+        <h2>Songs</h2>
+        <ul class="list-group">
+            {% for song in songs %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div class="writers">
+                        <a href="{% url 'home:song_detail' song.pk %}">{{ song.title }}</a>
+                        <p> {{ song.songwriters }} </p> 
+                    </div>
+                    <span class="text-muted">{{ song.release_date }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+{% endblock content %}

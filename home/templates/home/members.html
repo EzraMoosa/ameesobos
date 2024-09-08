@@ -1,0 +1,56 @@
+{% extends "home/base.html" %}
+
+
+{% load static %}
+
+
+<!-- Title -->
+{% block title %}
+    MEMBERS | Amee & The Sobos
+{% endblock title %}
+
+
+<!-- Content -->
+{% block content %}
+
+    <!-- Display all members of the band -->
+    <div class="container mt-5">
+        <h2>Our Members</h2>
+        <div class="row">
+
+        <!-- Iterate over every member in list -->
+            {% for member in members %}
+                <div class="col-md-4 mb-4">
+                        <div class="card"> <!-- 8 -->
+                            {% if member.image %}
+                                <img src="{{ member.image.url }}" class="card-img-top" alt="{{ member.name }}">
+                            {% else %}
+                                <img src="{% static 'home/img/default.jpg' %}" class="card-img-top" alt="Default Image">
+                            {% endif %}
+                            <div class="card-body">
+                                <h5 class="card-title">{{ member.name }}</h5>
+                                <h6 class="card-subtitle mb-2">{{ member.position }}</h6>
+                                <p class="card-text">{{ member.short_bio }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+            
+        </div>
+    </div>
+    
+{% endblock content %}
+
+<!--
+References & resources
+
+1. https://www.pexels.com/photo/woman-singing-with-the-band-8041168/
+2. https://www.vecteezy.com/png/19879198-user-icon-on-transparent-background
+3. https://www.pexels.com/photo/woman-holding-a-acoustic-guitar-3401783/
+4. https://www.pexels.com/photo/a-woman-holding-drumsticks-8412413/
+5. https://www.pexels.com/photo/woman-playing-violin-1384867/
+6. https://www.pexels.com/photo/a-man-playing-piano-inside-a-music-studio-7088371/
+7. https://www.pexels.com/photo/man-playing-percussion-instrument-1703540/
+8. https://getbootstrap.com/docs/4.0/components/card/
+-->

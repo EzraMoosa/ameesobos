@@ -1,0 +1,60 @@
+{% extends "home/base.html" %}
+
+{% load static %}
+
+
+<!-- Title & Styles-->
+{% block title %}REGISTER | Amee & The Sobos{% endblock title %}
+{% block styles %}<link rel="stylesheet" href="{% static 'user_auth/styles.css' %}">{% endblock styles %}
+
+<!-- Content -->
+{% block content %}
+
+
+    <section>
+        <!-- Band logo -->
+        <div class="imgBx">
+            <img src="{% static 'home/img/logo.png' %}" alt="logo">
+        </div>
+
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>REGISTER</h2>
+
+                <!-- Registration form -->
+                <form action="{% url 'user_auth:register' %}" method="post">
+                    {% csrf_token %}
+
+                    <!-- Input fields -->
+                    <div class="inputBx">
+                        <span>Username</span>
+                        <input type="text" name="username" id="username" class="form-control" required>
+                    </div>
+                    <div class="inputBx">
+                        <span>First Name</span>
+                        <input type="text" name="first_name" id="first_name" class="form-control" required>
+                    </div>
+                    <div class="inputBx">
+                        <span>Password</span>
+                        <input type="password" name="password1" id="password1" class="form-control" required>
+                    </div>
+                    <div class="inputBx">
+                        <span>Confirm Password</span>
+                        <input type="password" name="password2" id="password2" class="form-control" required>
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="inputBx">
+                        <input type="submit" value="REGISTER">
+                    </div>
+
+                    <div class="inputBx">
+                        <p>Already have an account? <a href="{% url 'user_auth:login' %}">Login Here</a></p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends "home/base.html" %}
+
+
+{% load static %}
+
+
+<!-- Title -->
+{% block title %}
+    HOME | Amee & The Sobos
+{% endblock title %}
+
+
+<!-- Content -->
+{% block content %}
+
+    <!-- Hero Section -->
+    <div class="container-fluid p-0">
+        <div class="hero-section position-relative">
+            <img src="{% static 'home/img/band.jpg' %}" alt="Band Image" class="img-fluid w-100"> <!-- 1 -->
+
+            <!-- Events button -->
+            <div class="inputBx">
+                <p><a href="{% url 'home:events' %}">Events</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="container mt-5 text-center">
+        <h1>Feel the Beat, Live the Moment</h1>
+    </div>
+
+    <!-- Amsterdam Content Row -->
+    <div class="container mt-5 content-row">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="{% static 'home/img/amsterdam.jpg' %}" alt="Amsterdam" class="img-fluid"> <!-- 2 -->
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="w-100 text-center">
+                    <h4>Amsterdam<span> | </span>October 2024</h4>
+                    <p>On a magical evening in Amsterdam, music lovers gathered to experience an unforgettable concert by Amee & the Sobos. The historic venue was filled with electrifying energy as the band took to the stage, delivering a performance that left the audience mesmerized.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tokyo Content Row -->
+    <div class="container mt-5 content-row">
+        <div class="row align-items-center">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="w-100 text-center">
+                    <h4>Tokyo<span> | </span>June 2024</h4>
+                    <p>In the heart of Tokyo, an exhilarating concert by Amee & The Sobos turned an ordinary night into a spectacular celebration of music and culture. As the lights dimmed in Hibiya Open Air Concert Hall, anticipation electrified the air, setting the stage for an unforgettable performance.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'home/img/tokyo.jpg' %}" alt="Tokyo" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Budapest Content Row -->
+    <div class="container mt-5 content-row">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="{% static 'home/img/budapest.jpg' %}" alt="Budapest" class="img-fluid"> <!-- 3 -->
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="w-100 text-center">
+                    <h4>Budapest<span> | </span>April 2024</h4>
+                    <p>In the heart of Budapest, Amee & The Sobos delivered a spellbinding performance that transformed an ordinary evening into a musical journey. The iconic Vigadó Concert Hall was the perfect setting for this extraordinary event, with its historic charm and acoustics amplifying every note.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- 
+References & Resources
+
+1. https://www.pexels.com/photo/concert-at-night-258804/
+2. https://www.pexels.com/photo/people-inside-concert-hall-2263436/  
+3. https://www.pexels.com/photo/fireworks-at-a-concert-19662654/ 
+-->
