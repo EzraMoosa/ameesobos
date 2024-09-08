@@ -138,3 +138,6 @@ GitHub.sublime-settings
 
 # Virtual enviroment
 .venv
+
+# Pycache
+__pycache__
