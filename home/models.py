@@ -1,5 +1,4 @@
-
-#Libraries and modules
+# Libraries and modules
 from django.db import models
 
 
