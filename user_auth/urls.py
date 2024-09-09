@@ -1,7 +1,3 @@
-# Libraries and modules
-from django.urls import path
-from . import views
-
 """
 URL configuration for the `user_auth` app.
 
@@ -15,6 +11,11 @@ URL Patterns:
 - ``'logout/'``: Maps to the `user_logout` view, which handles user logout.
 - ``'register/'``: Maps to the `register` view, for user registration.
 """
+
+# Libraries and modules
+from django.urls import path
+from . import views
+
 
 app_name = 'user_auth'
 
