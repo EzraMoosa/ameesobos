@@ -1,9 +1,3 @@
-# Libraries and modules
-from django.conf import settings
-from django.conf.urls.static import static
-from django.urls import path
-from . import views
-
 """
 This module defines URL patterns for the `home` app in the Django project.
 
@@ -19,6 +13,12 @@ URL Patterns:
   `<int:pk>` is the primary key of the song.
 - ``'events/'``: Maps to `events_list` view function.
 """
+
+# Libraries and modules
+from django.conf import settings
+from django.conf.urls.static import static
+from django.urls import path
+from . import views
 
 
 app_name = 'home'
