@@ -11,13 +11,19 @@ class Member(models.Model):
     This model stores information about Members and Position.
 
     Attributes:
-        name (CharField): This is the name or names of the member.
-        position (Charfield): This is their role or position in the band.
-        bio (TextField): This is a short bio of the member.
-        image (ImageField): This is a photo or image of member.
+    -----------
+        name : models.CharField
+            The name of the member.
+        position : models.CharField
+            The member's role or position in the band.
+        image : models.ImageField
+            A photo or image of the member.
+
 
     Methods:
-        __str__: Returns a string representation of the member's name.
+    --------
+        __str__():
+            Returns a string representation of the member's name.
     """
 
     name = models.CharField(max_length=200)
@@ -26,16 +32,19 @@ class Member(models.Model):
     image = models.ImageField(upload_to='members/')
 
     def __str__(self):
-        
+
         """
-        Return string representation of member's name.
+        Returns:
+        --------
+        str
+            A string representation of member's name.
         """
 
         return self.name
 
 
 class Song(models.Model):
-    
+
     """
     Represents a song from this band.
 
@@ -43,13 +52,20 @@ class Song(models.Model):
     lyrics
 
     Attributes:
-        title (CharField): This is the name or title of the song.
-        songwriter(s) (Charfield): The person or people who wrote this song.
-        release_date (DateTimeField): The date the song was released.
-        lyrics (TextField): Optional field for the lyrics of the song.
+    -----------
+        title : models.CharField
+            The title of the songs.
+        songwriters : models.CharField
+            The person(s) who wrote the song.
+        release_date : models.DateTimeField
+            The date the song was released.
+        lyrics : models.TextField
+            The lyrics of the song.
 
     Methods:
-        __str__: Returns a string representation of the song's title.
+    --------
+        __str__():
+            Returns a string representation of the song's title.
     """
 
     title = models.CharField(max_length=200)
@@ -60,27 +76,37 @@ class Song(models.Model):
     def __str__(self):
 
         """
-        Return string representation of song title
+        Returns:
+        --------
+        str
+            A string representation of song title.
         """
 
         return self.title
-    
+
 
 class Event(models.Model):
-    
+
     """
     Represents an upcoming event from the band.
 
     This model stores information about event venue, city, country and date.
 
     Attributes:
-        venue (CharField): This is the venue of the event.
-        city (Charfield): The city where the event will take place.
-        country (Charfield): The country where the event will take place.
-        date (DateTimeField): The date of the upcoming event.
+    -----------
+        venue : models.CharField
+            The venue where the event will take place.
+        city : models.CharField
+            The city where the event will take place.
+        country : models.CharField
+            The country where the event will take place.
+        date : models.DateTimeField
+            The date of the event.
 
     Methods:
-        __str__: Returns a string representation of the event's venue.
+    --------
+        __str__():
+            Returns a string representation of the event's venue.
     """
 
     venue = models.CharField(max_length=200)
@@ -91,7 +117,10 @@ class Event(models.Model):
     def __str__(self):
 
         """
-        Return string representation of event venue.
+        Returns:
+        --------
+        str
+            A string representation of event venue.
         """
 
         return self.venue
