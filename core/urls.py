@@ -1,7 +1,3 @@
-# Libraries and modules
-from django.contrib import admin
-from django.urls import path, include
-
 """
 This module defines the URL patterns for the Django project.
 
@@ -15,6 +11,11 @@ URL Patterns:
 
 This file serves as the central routing configuration for the project.
 """
+
+# Libraries and modules
+from django.contrib import admin
+from django.urls import path, include
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
