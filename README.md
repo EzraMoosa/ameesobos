@@ -18,35 +18,35 @@ This project is a Django web application created for a fictional band "Amee & Th
 
 ### 1. Clone Repository
 
-`git clone https://github.com/EzraMoosa/ameesobos.git`  
-`cd ameesobos`
+* Use `git clone https://github.com/EzraMoosa/ameesobos.git`  
+* Change into repository directory using `cd ameesobos`
 
 ### 2. Setting up virtual enviroment
 
-`python -m venv .venv` or `python3 -m venv .venv` (You can replace '.venv' with a name of your own.)
+Use `python -m venv .venv` or `python3 -m venv .venv` (You can replace '.venv' with a name of your own.)
 
 Activate virtual enviroment
 
-`source .venv/bin/activate` for (MacOS and Linux) or use `.venv\Scripts\activate` for (Windows)
+Use `source .venv/bin/activate` for (MacOS and Linux) or use `.venv\Scripts\activate` for (Windows)
 
 ### 3. Install dependencies
 
-`pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+Use `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
 ### 4. Set up database
 
-`python manage.py migrate` or `python3 manage.py migrate`
+Use `python manage.py migrate` or `python3 manage.py migrate`
 
 ### 5. Run development server
 
-`python manage.py runserver` or `python3 manage.py runserver`
+Use `python manage.py runserver` or `python3 manage.py runserver`
 
 ## Running the Application using Docker
 
 ### 1. Clone Repository
 
-`git clone https://github.com/EzraMoosa/ameesobos.git`  
-`cd ameesobos`
+* Use `git clone https://github.com/EzraMoosa/ameesobos.git`  
+* Change into repository directory using `cd ameesobos`
 
 ### 2. Build Docker image
 
