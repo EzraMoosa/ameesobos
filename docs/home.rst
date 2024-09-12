@@ -13,26 +13,10 @@ home.admin module
    :undoc-members:
    :show-inheritance:
 
-home.apps module
-~~~~~~~~~~~~~~~~
-
-.. automodule:: home.apps
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 home.models module
 ~~~~~~~~~~~~~~~~~~
 
 .. automodule:: home.models
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-home.tests module
-~~~~~~~~~~~~~~~~~
-
-.. automodule:: home.tests
    :members:
    :undoc-members:
    :show-inheritance:
