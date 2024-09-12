@@ -32,6 +32,7 @@ exclude_patterns = [
     '_build',
     'Thumbs.db',
     '.DS_Store',
+    'manage.rst',
     'home.migrations.rst',
     'user_auth.migrations.rst',
     '**/migrations/*.rst'
