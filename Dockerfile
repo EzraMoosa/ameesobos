@@ -1,4 +1,4 @@
-FROM pypy:latest
+FROM pypy
 
 # Set working dir
 WORKDIR /app
