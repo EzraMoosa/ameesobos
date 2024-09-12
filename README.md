@@ -18,7 +18,7 @@ This project is a Django web application created for a fictional band "Amee & Th
 
 ### 1. Clone Repository
 
-`git clone https://github.com/EzraMoosa/ameesobos.git`
+`git clone https://github.com/EzraMoosa/ameesobos.git`  
 `cd ameesobos`
 
 ### 2. Setting up virtual enviroment
@@ -45,7 +45,7 @@ Activate virtual enviroment
 
 ### 1. Clone Repository
 
-`git clone https://github.com/EzraMoosa/ameesobos.git`
+`git clone https://github.com/EzraMoosa/ameesobos.git`  
 `cd ameesobos`
 
 ### 2. Build Docker image
