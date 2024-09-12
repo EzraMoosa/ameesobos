@@ -1,6 +1,6 @@
 # Amee & The Sobos - Django Full Stack Project
 
-This project is a Django web application created for a fictional band "Amee & The Sobos". The application includes features such member profiles, songs and upcoming events. This guide will provide steps to build and run the app either in a Python virtual enviroment or with Docker.
+This project is a Django web application created for a fictional band "Amee & The Sobos". The application includes features such member profiles, songs and upcoming events. It also includes a login and registration page handling user authentication. This guide will provide steps to build and run the app either in a Python virtual enviroment or with Docker.
 
 ## Prerequisites
 
