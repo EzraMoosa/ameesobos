@@ -7,7 +7,7 @@ Submodules
 ----------
 
 core.asgi module
-----------------
+~~~~~~~~~~~~~~~~
 
 .. automodule:: core.asgi
    :members:
@@ -15,7 +15,7 @@ core.asgi module
    :show-inheritance:
 
 core.settings module
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: core.settings
    :members:
@@ -23,7 +23,7 @@ core.settings module
    :show-inheritance:
 
 core.urls module
-----------------
+~~~~~~~~~~~~~~~~
 
 .. automodule:: core.urls
    :members:
@@ -31,7 +31,7 @@ core.urls module
    :show-inheritance:
 
 core.wsgi module
-----------------
+~~~~~~~~~~~~~~~~
 
 .. automodule:: core.wsgi
    :members:
@@ -39,7 +39,7 @@ core.wsgi module
    :show-inheritance:
 
 Module contents
----------------
+~~~~~~~~~~~~~~~
 
 .. automodule:: core
    :members:
