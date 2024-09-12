@@ -6,7 +6,7 @@ Submodules
 ----------
 
 home.admin module
------------------
+~~~~~~~~~~~~~~~~~
 
 .. automodule:: home.admin
    :members:
@@ -14,7 +14,7 @@ home.admin module
    :show-inheritance:
 
 home.apps module
-----------------
+~~~~~~~~~~~~~~~~
 
 .. automodule:: home.apps
    :members:
@@ -22,7 +22,7 @@ home.apps module
    :show-inheritance:
 
 home.models module
-------------------
+~~~~~~~~~~~~~~~~~~
 
 .. automodule:: home.models
    :members:
@@ -30,7 +30,7 @@ home.models module
    :show-inheritance:
 
 home.tests module
------------------
+~~~~~~~~~~~~~~~~~
 
 .. automodule:: home.tests
    :members:
@@ -38,7 +38,7 @@ home.tests module
    :show-inheritance:
 
 home.urls module
-----------------
+~~~~~~~~~~~~~~~~
 
 .. automodule:: home.urls
    :members:
@@ -46,7 +46,7 @@ home.urls module
    :show-inheritance:
 
 home.views module
------------------
+~~~~~~~~~~~~~~~~~
 
 .. automodule:: home.views
    :members:
@@ -54,7 +54,7 @@ home.views module
    :show-inheritance:
 
 Module contents
----------------
+~~~~~~~~~~~~~~~
 
 .. automodule:: home
    :members:
