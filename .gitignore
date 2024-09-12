@@ -140,7 +140,7 @@ GitHub.sublime-settings
 .venv
 
 # Sphinx
-docs/Makefile
-docs/make.bat
-docs/home.migrations.rst
-docs/user_auth.migrations.rst
+Makefile
+make.bat
+home.migrations.rst
+user_auth.migrations
