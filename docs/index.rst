@@ -7,7 +7,7 @@ Django Full Stack documentation
 ===============================
 
 This is the documentation for a Django project created for the band Amee & the
-Sobos. The project include multiple pages, a login & registration screen
+Sobos. The project include multiple pages, a login & registration screen.
 
 
 .. toctree::
@@ -17,3 +17,4 @@ Sobos. The project include multiple pages, a login & registration screen
    core
    home
    user_auth
+   modules
