@@ -8,7 +8,7 @@ Submodules
 ----------
 
 user\_auth.admin module
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.admin
    :members:
@@ -16,7 +16,7 @@ user\_auth.admin module
    :show-inheritance:
 
 user\_auth.apps module
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.apps
    :members:
@@ -24,7 +24,7 @@ user\_auth.apps module
    :show-inheritance:
 
 user\_auth.models module
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.models
    :members:
@@ -32,7 +32,7 @@ user\_auth.models module
    :show-inheritance:
 
 user\_auth.tests module
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.tests
    :members:
@@ -40,7 +40,7 @@ user\_auth.tests module
    :show-inheritance:
 
 user\_auth.urls module
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.urls
    :members:
@@ -48,7 +48,7 @@ user\_auth.urls module
    :show-inheritance:
 
 user\_auth.views module
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.views
    :members:
@@ -56,7 +56,7 @@ user\_auth.views module
    :show-inheritance:
 
 Module contents
----------------
+~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth
    :members:
