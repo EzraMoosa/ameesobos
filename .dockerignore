@@ -1,0 +1,9 @@
+# Exclude virtual enviroment
+.venv/
+
+# Exclude Python bytecode files
+__pycache__/
+
+# Exclude migrations directories
+home/migrations/
+user_auth/migrations/
