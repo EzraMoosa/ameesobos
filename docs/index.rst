@@ -14,7 +14,4 @@ Sobos. The project include multiple pages, a login & registration screen.
    :maxdepth: 2
    :caption: Contents:
 
-   core
-   home
-   user_auth
    modules
