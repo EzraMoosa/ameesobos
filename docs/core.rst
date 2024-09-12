@@ -1,7 +1,7 @@
-Core Module
-============
+Core
+====
 This module contains the core settings and configurations for the Django 
-project
+project.
 
 Submodules
 ----------
