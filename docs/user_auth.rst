@@ -6,16 +6,16 @@ This package handles user authentication for the Django project. It includes com
 Submodules
 ----------
 
-user\_auth.urls module
-~~~~~~~~~~~~~~~~~~~~~~
+user\_auth.urls
+~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.urls
    :members:
    :undoc-members:
    :show-inheritance:
 
-user\_auth.views module
-~~~~~~~~~~~~~~~~~~~~~~~
+user\_auth.views
+~~~~~~~~~~~~~~~~
 
 .. automodule:: user_auth.views
    :members:

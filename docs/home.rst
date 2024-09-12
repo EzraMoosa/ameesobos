@@ -5,32 +5,32 @@ This package includes the core functionality for the home section of the Django 
 Submodules
 ----------
 
-home.admin module
-~~~~~~~~~~~~~~~~~
+home.admin
+~~~~~~~~~~
 
 .. automodule:: home.admin
    :members:
    :undoc-members:
    :show-inheritance:
 
-home.models module
-~~~~~~~~~~~~~~~~~~
+home.models
+~~~~~~~~~~~
 
 .. automodule:: home.models
    :members:
    :undoc-members:
    :show-inheritance:
 
-home.urls module
-~~~~~~~~~~~~~~~~
+home.urls
+~~~~~~~~~
 
 .. automodule:: home.urls
    :members:
    :undoc-members:
    :show-inheritance:
 
-home.views module
-~~~~~~~~~~~~~~~~~
+home.views
+~~~~~~~~~~
 
 .. automodule:: home.views
    :members:

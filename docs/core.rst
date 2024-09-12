@@ -6,8 +6,8 @@ project.
 Submodules
 ----------
 
-core.asgi module
-~~~~~~~~~~~~~~~~
+core.asgi
+~~~~~~~~~
 
 .. automodule:: core.asgi
    :members:
@@ -30,8 +30,8 @@ core.urls module
    :undoc-members:
    :show-inheritance:
 
-core.wsgi module
-~~~~~~~~~~~~~~~~
+core.wsgi
+~~~~~~~~~
 
 .. automodule:: core.wsgi
    :members:
