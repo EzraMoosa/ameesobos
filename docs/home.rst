@@ -52,11 +52,3 @@ home.views module
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
-~~~~~~~~~~~~~~~
-
-.. automodule:: home
-   :members:
-   :undoc-members:
-   :show-inheritance:

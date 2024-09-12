@@ -54,11 +54,3 @@ user\_auth.views module
    :members:
    :undoc-members:
    :show-inheritance:
-
-Module contents
-~~~~~~~~~~~~~~~
-
-.. automodule:: user_auth
-   :members:
-   :undoc-members:
-   :show-inheritance:
